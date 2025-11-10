@@ -20,8 +20,8 @@ import static java.time.ZoneId.of;
 import java.sql.Timestamp;
 import java.time.ZonedDateTime;
 
-import javax.persistence.AttributeConverter;
-import javax.persistence.Converter;
+import jakarta.persistence.AttributeConverter;
+import jakarta.persistence.Converter;
 
 /**
  * This class is a converter for the ZonedDateTime class with the database, to convert to/from a SQL
