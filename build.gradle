@@ -17,8 +17,8 @@ ext.set("signing.secretKeyRingFile", ".signing/secring.gpg")
 ext.set("signing.keyId", System.getenv("SIGNING_KEYID"))
 ext.set("signing.password", System.getenv("SIGNING_PASSWORD"))
 
-group = project.findProperty("serviceGroup") ?: "org.openlmis"
-version = project.findProperty("serviceVersion") ?: "3.0.0"
+group = project.findProperty("serviceGroup") ?: "org.wajaja.openlmis"
+version = project.findProperty("serviceVersion") ?: "3.1.1-1.0.0"
 project.ext.buildTime = java.time.Instant.now().toString()
 
 java {
